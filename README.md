@@ -2,7 +2,7 @@
 
 使用alfred查看各种社交网站上的热搜排行榜 ~~一键尽知天下事~~
 
-> 使用方式：[下载链接](hot.alfredworkflow) 导入`Alfred`
+> 使用方式：[下载链接](https://github.com/ormissia/go-alfred/releases/download/v0.0.1/hot.alfredworkflow) 导入`Alfred`
 
 ![resources/results.gif](resources/results.gif)
 
