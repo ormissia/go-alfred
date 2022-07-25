@@ -1,0 +1,3 @@
+### 热搜
+GET https://weibo.com/ajax/side/hotSearch
+
