@@ -1,0 +1,3 @@
+### 热搜
+GET https://api.bilibili.com/x/web-interface/search/square?limit=50
+
