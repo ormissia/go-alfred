@@ -24,10 +24,10 @@ func autocomplete() {
 	outputs := make([]output.UnifiedOutput, 0, len(trendingMap))
 	// TODO 排序
 	outputs = append(outputs, output.UnifiedOutput{
-		Msg:      client.Bilibili,
-		Detail:   client.Bilibili,
+		Msg:      client.Weibo,
+		Detail:   client.Weibo,
 		Url:      "",
-		IconPath: trendingMap[client.Bilibili].IconPath(),
+		IconPath: trendingMap[client.Weibo].IconPath(),
 	})
 	outputs = append(outputs, output.UnifiedOutput{
 		Msg:      client.Zhihu,
@@ -36,10 +36,10 @@ func autocomplete() {
 		IconPath: trendingMap[client.Zhihu].IconPath(),
 	})
 	outputs = append(outputs, output.UnifiedOutput{
-		Msg:      client.Weibo,
-		Detail:   client.Weibo,
+		Msg:      client.Bilibili,
+		Detail:   client.Bilibili,
 		Url:      "",
-		IconPath: trendingMap[client.Weibo].IconPath(),
+		IconPath: trendingMap[client.Bilibili].IconPath(),
 	})
 	output.OutputToAlfred(outputs)
 }
