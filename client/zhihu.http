@@ -1,0 +1,2 @@
+### 热搜
+GET https://www.zhihu.com/api/v3/feed/topstory/hot-lists/total?limit=50&desktop=true

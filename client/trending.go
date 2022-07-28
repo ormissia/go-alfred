@@ -6,15 +6,20 @@ import (
 )
 
 var clientMap = map[string]TrendingClient{
-	Bilibili: &BilibiliClient{
-		Icon:         "resources/bilibili_logo.png",
-		Host:         "https://api.bilibili.com",
-		TrendingPath: "/x/web-interface/search/square?limit=50",
-	},
 	Weibo: &WeiboClient{
 		Icon:         "resources/weibo_logo.png",
 		Host:         "https://weibo.com",
 		TrendingPath: "/ajax/side/hotSearch",
+	},
+	Zhihu: &ZhihuClient{
+		Icon:         "resources/zhihu_logo.png",
+		Host:         "https://www.zhihu.com",
+		TrendingPath: "/api/v3/feed/topstory/hot-lists/total?limit=50&desktop=true",
+	},
+	Bilibili: &BilibiliClient{
+		Icon:         "resources/bilibili_logo.png",
+		Host:         "https://api.bilibili.com",
+		TrendingPath: "/x/web-interface/search/square?limit=50",
 	},
 }
 

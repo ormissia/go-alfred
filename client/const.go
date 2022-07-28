@@ -1,6 +1,7 @@
 package client
 
 const (
-	Bilibili = "bilibili"
 	Weibo    = "weibo"
+	Zhihu    = "zhihu"
+	Bilibili = "bilibili"
 )
