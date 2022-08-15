@@ -1,0 +1,4 @@
+### 热销商品
+GET https://store.steampowered.com/search/results?force_infinite=1&os=win&filter=topsellers
+
+

@@ -36,6 +36,12 @@ func autocomplete() {
 		IconPath: trendingMap[client.Zhihu].IconPath(),
 	})
 	outputs = append(outputs, output.UnifiedOutput{
+		Msg:      client.Steam,
+		Detail:   client.Steam,
+		Url:      "",
+		IconPath: trendingMap[client.Steam].IconPath(),
+	})
+	outputs = append(outputs, output.UnifiedOutput{
 		Msg:      client.Bilibili,
 		Detail:   client.Bilibili,
 		Url:      "",
